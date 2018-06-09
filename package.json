@@ -1,0 +1,26 @@
+{
+  "name": "font-arimo",
+  "version": "2.0.0",
+  "description": "Innovative, refreshing sans serif design.",
+  "homepage": "https://github.com/ecmel/font-arimo#readme",
+  "keywords": [
+    "font"
+  ],
+  "license": "Apache",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecmel/font-arimo.git"
+  },
+  "scripts": {
+    "regular": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Regular.ttf",
+    "italic": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Italic.ttf",
+    "bold": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Bold.ttf",
+    "bold-italic": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-BoldItalic.ttf",
+    "build": "npm run regular && npm run italic && npm run bold && npm run bold-italic",
+    "clean": "rimraf build *.tgz"
+  },
+  "devDependencies": {
+    "rimraf": "2.6.2",
+    "download-cli": "1.1.1"
+  }
+}
