@@ -1,6 +1,6 @@
 {
   "name": "font-arimo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Innovative, refreshing sans serif design.",
   "homepage": "https://github.com/ecmel/font-arimo#readme",
   "keywords": [
@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/ecmel/font-arimo.git"
   },
+  "files": [
+    "build"
+  ],
   "scripts": {
     "regular": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Regular.ttf",
     "italic": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Italic.ttf",
