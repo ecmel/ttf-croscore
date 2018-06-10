@@ -19,7 +19,7 @@
     "italic": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Italic.ttf",
     "bold": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Bold.ttf",
     "bold-italic": "download --out build https://github.com/google/fonts/raw/master/apache/arimo/Arimo-BoldItalic.ttf",
-    "build": "npm run regular & npm run italic & npm run bold & npm run bold-italic",
+    "build": "npm run regular && npm run italic && npm run bold && npm run bold-italic",
     "clean": "rimraf build *.tgz"
   },
   "devDependencies": {
