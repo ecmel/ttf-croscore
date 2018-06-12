@@ -1,21 +1,21 @@
 {
-  "name": "font-arimo",
-  "version": "2.0.5",
+  "name": "ttf-croscore",
+  "version": "0.0.2",
   "description": "Chrome OS core fonts",
-  "homepage": "https://github.com/ecmel/font-arimo#readme",
+  "homepage": "https://github.com/ecmel/ttf-croscore#readme",
   "keywords": [
     "font"
   ],
   "license": "Apache",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ecmel/font-arimo.git"
+    "url": "git+https://github.com/ecmel/ttf-croscore.git"
   },
   "main": "index.js",
   "files": [
     "fonts"
   ],
-  "scripts": {   
+  "scripts": {
     "build": "node build.js",
     "clean": "rimraf fonts *.tgz"
   },
